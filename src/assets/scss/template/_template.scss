@@ -69,8 +69,10 @@ body,
     }
     .menu_divider{
       display: block; 
-      height: 20px; width: 
-      1px; background-color: #ff690f; 
+      height: 20px; 
+      margin: 0 !important;
+      width: 1px; 
+      background-color: #ff690f; 
       background: #ff690f; 
     }
   }
@@ -365,6 +367,9 @@ body,
       .appstore_icon{
         width: 120px;
       }
+      .playstore_icon{
+        width: 120px;
+      }
       .social_media_icon{
         width: 35px;
       }
@@ -395,7 +400,7 @@ body,
       padding-bottom: 5px !important;
     .umbrella{
       padding-left: 0px !important;
-      padding-right: 10px !important;
+      padding-right: 0px !important;
       margin-left: 10px !important;
       margin-right: 20px !important;
     }
@@ -428,10 +433,55 @@ body,
     .menu_divider {
       display: block;
       height: 20px;
-      width:
-        2px;
+      width:1px;
+      margin: 0px !important;
       background-color: rgb(50, 71, 84);
       background: rgb(50, 71, 84);
     }
   }
+}
+.footer-bottom{
+      background: rgb(19, 25, 30);
+      background-color: rgb(19, 25, 30);
+        .lower-links{
+          text-align: center;
+          padding-top: 30px;
+          padding-bottom: 5px;
+        }
+        p{
+          color: white;
+        }
+      .privacy{
+        p{
+          font-size: 10px;
+          color: rgb(171, 172, 173);
+          padding-bottom: 20px;
+          font-weight: 600;
+        }
+      }
+      th{
+        
+        .copyright{
+          padding-bottom: 0;
+          p{
+            font-size: 12px;
+            font-weight: 450;
+            margin-bottom: 5px;
+          }
+        }
+        .address{
+          p{
+            font-size: 12px;
+            font-weight: 450;
+          }
+          padding-bottom: 30px;
+        }
+      }
+      .footer-icon{
+        color: white;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 12px;
+        font-weight: 600;
+      }
 }
