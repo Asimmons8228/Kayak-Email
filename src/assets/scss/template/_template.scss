@@ -34,10 +34,25 @@ body,
   background: #d65600;
   .columns{
     color: white;
-    padding-left: 10px !important;
+    padding-left: 0px !important;
     padding-right: 10px !important;
     padding-top: 5px !important;
     padding-bottom: 5px !important;
+    .umbrella{
+      padding-left: 0px !important;
+      padding-right: 10px !important;
+      margin-left: 10px !important;
+      margin-right: 20px !important;
+    }
+    .umbrella-divider{
+      padding-right: 0 !important;
+      margin: 0;
+    }
+    .plane{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      margin-left: 0 !important;
+    }
     .menu_icon{
       width: 20px;
       margin-right: 10px;
@@ -374,10 +389,25 @@ body,
     background-color: rgb(19, 25, 30);
   .columns {
     color: white;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-    padding-top: 8px !important;
-    padding-bottom: 8px !important;
+    padding-left: 0px !important;
+      padding-right: 10px !important;
+      padding-top: 5px !important;
+      padding-bottom: 5px !important;
+    .umbrella{
+      padding-left: 0px !important;
+      padding-right: 10px !important;
+      margin-left: 10px !important;
+      margin-right: 20px !important;
+    }
+    .umbrella-divider{
+      padding-right: 0 !important;
+      margin: 0;
+    }
+    .plane{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      margin-left: 0 !important;
+    }
     .menu_icon {
       width: 20px;
       margin-right: 10px;
