@@ -232,6 +232,7 @@ body,
     }
     img {
       padding-bottom: 20px;
+      
     }
     p {
       color: rgb(50, 71, 84);
@@ -243,7 +244,9 @@ body,
       color: white;
       display: block;
     }
-
+    .deal-icons{
+      padding-top: 30px;
+    }
     .save_amount {
       color: rgb(50, 71, 84);
       font-size: 14px;
@@ -281,6 +284,124 @@ body,
       &:hover {
         color: #ff690f;
       }
+    }
+  }
+}
+.footer{
+    background: rgb(33, 45, 54);
+    background-color: rgb(33, 45, 54);
+    padding-left: 20px;
+  
+    .columns {
+      padding-bottom: 30px !important;
+      padding-left: 30px !important;
+      padding-top: 30px !important;
+      padding-right: 30px !important;
+      .footer-blurb{
+        font-size: 14px;
+        color: white;
+        font-weight: 500;
+        padding-top: 2px;
+      }
+      .appstore{
+        padding-right: 6px;
+      }
+      .appstore_icon{
+        width: 120px;
+      }
+      .playstore_icon{
+        width: 130px;
+      }
+      .logo_circle {
+        width: 40px;
+        padding-right: 12px;
+      }
+  
+      .user_icon {
+        width: 32px;
+        float: right;
+      }
+  
+      h1 {
+        color: white;
+      }
+    }
+  }
+
+.footer-section-2{
+    background: rgb(19, 25, 30);
+    background-color: rgb(19, 25, 30);
+    padding-left: 20px;
+  
+    .columns {
+      padding-bottom: 40px !important;
+      padding-left: 30px !important;
+      padding-top: 30px !important;
+      padding-right: 30px !important;
+      .footer-blurb{
+        font-size: 14px;
+        color: white;
+        font-weight: 500;
+        padding-top: 2px;
+      }
+      .appstore{
+        padding-right: 6px;
+      }
+      .appstore_icon{
+        width: 120px;
+      }
+      .social_media_icon{
+        width: 35px;
+      }
+      .kayak_logo {
+        width: 125px;
+      }
+  
+      .user_icon {
+        width: 32px;
+        float: right;
+      }
+  
+      h1 {
+        color: white;
+      }
+    }
+  }
+.sub-footer{
+    border-top: 1px solid rgb(50, 71, 84);
+    border-bottom: 1px solid rgb(50, 71, 84);
+    background: rgb(19, 25, 30);
+    background-color: rgb(19, 25, 30);
+  .columns {
+    color: white;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    .menu_icon {
+      width: 20px;
+      margin-right: 10px;
+      display: inline-block;
+      vertical-align: bottom;
+    }
+
+    a {
+      color: white;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    th {
+      text-align: center;
+    }
+
+    .menu_divider {
+      display: block;
+      height: 20px;
+      width:
+        2px;
+      background-color: rgb(50, 71, 84);
+      background: rgb(50, 71, 84);
     }
   }
 }
