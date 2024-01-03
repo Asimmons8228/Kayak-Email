@@ -1,0 +1,202 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+html,
+body,
+.body{
+  background: #e4e5ea;
+  background-color: #e4e5ea;
+}
+.header{
+  background: #ff690f;
+  background-color: #ff690f;
+  padding-left: 20px;
+  .columns{
+    padding-bottom: 20px !important;
+    padding-left: 30px !important;
+    padding-top: 20px !important;
+    padding-right: 30px !important;
+    .logo_white{
+      width: 128px;
+    }
+    .user_icon{
+      width: 32px;
+      float: right;
+    }
+    h1{
+      color: white;
+    }
+  }
+}
+.sub-header{
+  background-color: #d65600;
+  background: #d65600;
+  .columns{
+    color: white;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    .menu_icon{
+      width: 20px;
+      margin-right: 10px;
+      display: inline-block;
+      vertical-align: bottom;
+    }
+    a{
+      color: white;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    th{
+      text-align: center;
+    }
+    .menu_divider{
+      display: block; 
+      height: 20px; width: 
+      1px; background-color: #ff690f; 
+      background: #ff690f; 
+    }
+  }
+}
+.deal_of_day{
+  background-color: rgb(19, 25, 30);
+  background: rgb(19, 25, 30);
+  
+  .columns{
+    color: white;
+    th{
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    img{
+      padding-bottom: 20px;
+    }
+    h2{
+      padding-bottom: 20px;
+      color: white;
+      font-weight: 800;
+      font-size: 30px;
+    }
+    p{
+      color: white;
+      font-weight: 800;
+      font-size: 16px;
+    }
+    span{
+      color: white;
+      display: block;
+    }
+    .save_amount{
+      font-weight: 600;
+    }
+    .tiny_info{
+      font-size: 10px;
+      font-weight: 500;
+      padding-bottom: 10px;
+    }
+    .Price{
+      font-weight: 900;
+      font-size: 20px;
+      padding-bottom: 10px;
+    }
+    .button{
+      border: 1px solid white;
+      border-radius: 4px;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 600;
+      padding-top: 9px;
+      padding-bottom: 9px;
+      padding-left: 30px;
+      padding-right: 30px;
+      width: 100px;
+      &:hover{
+        color: #ff690f;
+      }
+    }
+  }
+}
+.content-area{
+  background: rgb(241, 244, 247);
+  th{
+    padding-top: 10px!important;
+  }
+}
+.offer {
+  background-color: white;
+  background: white;
+  th{
+    padding: 25px;
+  }
+
+  .columns {
+    color: white;
+
+    th {
+      padding-top: 30px;
+      padding-bottom: 10px;
+    }
+
+    img {
+      padding-bottom: 20px;
+    }
+
+    h2 {
+      padding-bottom: 20px;
+      color: white;
+      font-weight: 800;
+      font-size: 30px;
+    }
+
+    p {
+      color: rgb(50, 71, 84);
+      font-weight: 800;
+      font-size: 16px;
+    }
+
+    span {
+      color: white;
+      display: block;
+    }
+
+    .save_amount {
+      font-weight: 600;
+      color: rgb(2, 149, 237);
+    }
+
+    .tiny_info {
+      font-size: 10px;
+      font-weight: 500;
+      padding-bottom: 10px;
+      color: rgb(50, 71, 84);
+    }
+
+    .Price {
+      font-weight: 900;
+      font-size: 20px;
+      padding-bottom: 10px;
+      color: rgb(50, 71, 84);
+    }
+
+    .button {
+      background: black;
+      color: white;
+      border: 1px solid black;
+      border-radius: 4px;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 600;
+      padding-top: 9px;
+      padding-bottom: 9px;
+      padding-left: 30px;
+      padding-right: 30px;
+      width: 100px;
+
+      &:hover {
+        color: #ff690f;
+      }
+    }
+  }
+}
